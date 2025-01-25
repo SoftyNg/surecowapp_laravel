@@ -1,0 +1,7 @@
+{
+    "UserManagement": true,
+    "LivestockManagement": true,
+    "ClaimsManagement": true,
+    "Policies": true,
+    "Actuarial": true
+}

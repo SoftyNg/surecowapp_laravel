@@ -1,0 +1,11 @@
+{
+    "name": "Policies",
+    "alias": "policies",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Policies\\Providers\\PoliciesServiceProvider"
+    ],
+    "files": []
+}

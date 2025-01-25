@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/livestockmanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LivestockManagement\\": "app/",
+            "Modules\\LivestockManagement\\Database\\Factories\\": "database/factories/",
+            "Modules\\LivestockManagement\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LivestockManagement\\Tests\\": "tests/"
+        }
+    }
+}

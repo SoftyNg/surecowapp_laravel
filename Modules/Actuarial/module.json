@@ -1,0 +1,11 @@
+{
+    "name": "Actuarial",
+    "alias": "actuarial",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Actuarial\\Providers\\ActuarialServiceProvider"
+    ],
+    "files": []
+}

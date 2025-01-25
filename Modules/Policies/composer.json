@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/policies",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Policies\\": "app/",
+            "Modules\\Policies\\Database\\Factories\\": "database/factories/",
+            "Modules\\Policies\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Policies\\Tests\\": "tests/"
+        }
+    }
+}

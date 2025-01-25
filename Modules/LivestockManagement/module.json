@@ -1,0 +1,11 @@
+{
+    "name": "LivestockManagement",
+    "alias": "livestockmanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LivestockManagement\\Providers\\LivestockManagementServiceProvider"
+    ],
+    "files": []
+}

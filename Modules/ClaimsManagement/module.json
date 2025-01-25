@@ -1,0 +1,11 @@
+{
+    "name": "ClaimsManagement",
+    "alias": "claimsmanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ClaimsManagement\\Providers\\ClaimsManagementServiceProvider"
+    ],
+    "files": []
+}

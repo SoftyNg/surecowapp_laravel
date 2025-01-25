@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/claimsmanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ClaimsManagement\\": "app/",
+            "Modules\\ClaimsManagement\\Database\\Factories\\": "database/factories/",
+            "Modules\\ClaimsManagement\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ClaimsManagement\\Tests\\": "tests/"
+        }
+    }
+}

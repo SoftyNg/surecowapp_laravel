@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/actuarial",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Actuarial\\": "app/",
+            "Modules\\Actuarial\\Database\\Factories\\": "database/factories/",
+            "Modules\\Actuarial\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Actuarial\\Tests\\": "tests/"
+        }
+    }
+}
